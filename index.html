@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=0.5, minimal-ui">
+  <title>MASH</title>
+  <link href="" rel="stylesheet">
+</head>
+<body>
+  <h1>MASH</h1>
+  <img src="" />
+  <p class="description">Mash is a game that was invented in 1983 into the 90s. It is traditionally played with pencil and paper, but you can play a digital version here. Fill in the blanks below with possible choices and your future will be foretold by selecting a random answer from each category.</p>
+
+<form action="" method="post" id="mash">
+
+  <div id="answers" class="hide">
+      <p>You live in a <span id="home"> in <span id="location"></span>. Your profession is <span id="profession"></span>, making <span id="profession"></span> per year. You are married to <span id="spouse"></span> and have <span id="kids"></span> together. You also own a <span id="vehicle"></span>.
+  </div>
+
+  <div class="choice-container">
+
+    <div class="choice-bucket">
+      <h4 class="highlight">Where will you live?</h4>
+        <input name="location[]" type="text">
+        <input name="location[]" type="text">
+        <input name="location[]" type="text">
+        <input name="location[]" type="text">
+      </div>
+
+      <div class="choice-bucket">
+        <h4 class="highlight">Your future profession?</h4>
+          <input name="profession[]" type="text">
+          <input name="profession[]" type="text">
+          <input name="profession[]" type="text">
+          <input name="profession[]" type="text">
+      </div>
+
+      <div class="choice-bucket">
+        <h4 class="highlight">Your future annual salary?</h4>
+          <input name="salary[]" type="text">
+          <input name="salary[]" type="text">
+          <input name="salary[]" type="text">
+          <input name="salary[]" type="text">
+      </div>
+
+      <div class="choice-bucket">
+        <h4 class="highlight">Who will you marry?</h4>
+          <input name="spouse[]" type="text">
+          <input name="spouse[]" type="text">
+          <input name="spouse[]" type="text">
+          <input name="spouse[]" type="text">
+      </div>
+
+      <div class="choice-bucket">
+        <h4 class="highlight">How many kids will you have?</h4>
+          <input name="kids[]" type="text">
+          <input name="kids[]" type="text">
+          <input name="kids[]" type="text">
+          <input name="kids[]" type="text">
+      </div>
+
+      <div class="choice-bucket">
+        <h4 class="highlight">What kind of vehicle will you have?</h4>
+          <input name="vehicle[]" type="text">
+          <input name="vehicle[]" type="text">
+          <input name="vehicle[]" type="text">
+          <input name="vehicle[]" type="text">
+      </div>
+
+  </div>
+
+  <input type="submit" value="Tell my future!">
+
+</form>
+<script src=""></script>
+</body>
+</html>
